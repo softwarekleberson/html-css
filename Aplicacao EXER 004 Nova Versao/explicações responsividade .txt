@@ -1,0 +1,24 @@
+                            Min-width
+
+
+Essa linha de código CSS define a propriedade min-width de um elemento HTML. A propriedade min-width é usada para especificar a largura mínima que um elemento deve ter. Nesse caso, a largura mínima é definida como 280 pixels.
+
+A implicação principal disso é que, independentemente do conteúdo dentro desse elemento, ele não será redimensionado para ser menor do que 280 pixels de largura. Por exemplo:
+
+Se o conteúdo dentro desse elemento for muito estreito, digamos, apenas 200 pixels de largura, o elemento ainda ocupará 280 pixels de largura na tela. O conteúdo pode ficar com espaço em branco à direita para atender ao requisito mínimo de largura.
+
+Se o conteúdo dentro do elemento for mais amplo, digamos, 300 pixels de largura, o elemento se expandirá para acomodar esse conteúdo, mas não será redimensionado além de 280 pixels de largura, porque essa é a largura mínima especificada.
+
+Portanto, a propriedade min-width é usada para garantir que o elemento tenha pelo menos uma largura mínima específica, o que pode ser útil para manter a consistência na aparência de elementos em uma página da web ou para evitar que elementos se tornem muito estreitos quando o conteúdo é limitado.
+
+
+
+                            Max-width
+
+max-width: 80px;: Esta propriedade CSS define a largura máxima do elemento para 80 pixels. Isso significa que o elemento não será redimensionado para ser maior do que 80 pixels de largura, mesmo se o conteúdo interno ou outros estilos tentarem aumentar sua largura.
+
+
+
+                            Margin
+
+margin: auto;: Esta propriedade CSS aplica margens automáticas ao elemento. Quando você define as margens como "auto", o elemento será centralizado horizontalmente dentro de seu contêiner pai. Isso é comumente usado para centralizar elementos, como blocos de texto ou imagens, em uma página da web.

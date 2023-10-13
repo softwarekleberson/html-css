@@ -1,0 +1,15 @@
+                                                    relative
+
+Isso define o elemento <div>com a classe "video" como tendo uma posição relativa em relação ao seu contêiner pai. Isso significa que as propriedades top, right, bottome leftpodem ser usadas para posicioná-lo em relação à sua posição normal na página.
+position: absolute;(parágrafo div.video > iframe):
+
+
+                                                    absoluta
+
+Isso define os elementos <iframe>que são descendentes diretamente da <div>classe "video" como tendo uma posição absoluta. Essa propriedade faz com que esses elementos sejam posicionados em relação ao seu ancestral mais próximo com uma posição diferente de "static" (a posição padrão). No caso, esse ancestral é o próprio div.video.
+
+                                                    Resumo
+
+Em resumo, position: relative;é usado para o elemento <div>da classe "video", permitindo que ele fique posicionado em relação ao seu local normal na página. position: absolute;é usado para os elementos <iframe>dentro desse <div>, permitindo que sejam posicionados em relação ao <div>com a classe "video".
+
+Além disso, os valores top: 5%;e left: 5%;não div.video > iframedefinem o deslocamento a partir do canto superior esquerdo do elemento pai ( div.video), enquanto width: 65%;e height: 65%;

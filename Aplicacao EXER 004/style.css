@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'Android';
+src: url(fontes/idroid.otf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 1px 3px;
+    background: linear-gradient(to bottom, #259556, #126A39, #043D1D);
+}
+
+header > nav {
+    text-align: left;
+    margin: 10px;
+}
+
+nav > a {
+    padding: 4px 6px 12px 4px;
+    color: white;
+    text-decoration: none;      
+}
+
+nav >a:hover {
+    background-color: rgba(5, 39, 10, 0.858);
+    border-radius: 10px;
+
+}
+
+section {
+    margin: 0px 120px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -2px 5px 15px 2px gray;
+}
+
+main {
+    background-color: #E8E5C2;
+}
+
+.fontes {
+    font-family: 'Android';
+}
+
+.fade {
+    background: linear-gradient(to right, #62a87d2a, #b4efcc36, white);
+}
+
+.fade-link {
+    background: linear-gradient(to right, #0b442143, #b4efcc49);
+    text-decoration: none;
+}
+
+header > h2 {
+    padding: 20px 0px;
+}
+
+header > p {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+main > section {
+    padding: 20px;
+}
+
+section > h2 {
+    padding: 5px 0px 10px 10px;
+}
+
+article > h2 {
+    padding: 5px 0px 10px 10px;
+}
+
+article > aside {
+    padding: 10px;
+}
+
+aside > p {
+    padding: 10px 0px;
+}
+
+article > iframe {
+padding: 20px;
+background-color: #043D1D;
+}
+
+.video {
+background-color: #043D1D;
+padding: 20px 80px 20px 80px ;
+margin: 5px -20px 5px -20px;
+
+}
+
+.lista-estilizada {
+    padding: 0px 0px 10px 0px;
+    margin: 10px 2px 20px 2px;
+    background-color: #81E2AB;
+    border-radius: 10px;
+}
+
+.lista-flex {
+    display: flex;
+    padding: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.lista-estilizada > h2 {
+    padding: 10px 0px 10px 4px;
+    background-color: #175C33;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.lista-estilizada > p {
+    padding: 10px 0px 10px 10px;
+}
+
+.lista-estilizada > ol {
+    padding: 0px 0px 10px 25px;
+}
+
+abbr {
+    text-decoration: none; 
+    border-bottom: none; 
+    cursor: help;   
+}
+
+#paragrafo-lista {
+padding: 0px 40px 0px 20px;
+}
+
+#letra-especial {
+color: #043D1D;
+font-weight: bold;
+text-decoration: none;
+}
+
+footer {
+background-color: #043D1D;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+.separa {
+    margin: 10px 400px 10px 0px;
+}
